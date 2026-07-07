@@ -1,8 +1,9 @@
 <div align="center">
 
-<img width="500" alt="Rovio Activation Script banner" src="banner.png" />
+<img width="555" alt="Rovio Activation Script banner" src="banner.png" />
 <br><br>
 A collection of scripts that allow you to fully unlock Bad Piggies on your PC.
+<br><br>
 
 [![](https://img.shields.io/badge/python-3.2+-blue.svg)](https://www.python.org/downloads/)
 
@@ -25,7 +26,7 @@ This is where this script comes into play. The script intercepts requests to `cl
 #### With the script:
 ![bp-activated-yes](https://github.com/PRO100KatYT/RovioActivationScript/assets/67335438/31f55c2d-a198-4c51-9cef-0f6297788955)
 
-> **Note:** The gifs above demonstrate the **Fiddler Script** method which runs in the background and allows you to activate the game directly through the in-game menu. If you choose the **Python Script** method, it's recommended to run it while the game is closed. The Python script generates the necessary activation file contents and the game will be activated the next time you launch it!
+> **Note:** The gifs above demonstrate the Fiddler Script method which lets you activate the game directly through the in-game menu. More info in the "How to use it?" section.
 
 ---
 
@@ -39,10 +40,10 @@ This is where this script comes into play. The script intercepts requests to `cl
 This script automatically generates the necessary configuration `Settings.xml` file with the activation data and saves it in the game data folder in AppData. This method works for all Bad Piggies versions on Windows.
 
 1. Download and extract the `RovioActivationScript.py` file to any location on your Windows PC from this repository. [(Direct download link)](https://github.com/PRO100KatYT/RovioActivationScript/archive/refs/heads/main.zip)
-2. Make sure you have [Python](https://www.python.org/downloads/) installed (tested on version 3.9 but should work on 3.2 or newer).
+2. Make sure you have [Python](https://www.python.org/downloads/) installed (tested on version 3.9 but should work on 3.2 or newer). No external modules via pip are required.
 3. Close the game if it's open.
-4. Run the downloaded script (e.g., by double-clicking it).
-5. Once the script is finished with no errors, Bad Piggies should be activated!
+4. Run the downloaded script using Python.
+5. Once the script is done with no errors, Bad Piggies should be activated!
 
 <br>
 
@@ -94,10 +95,14 @@ Feel free to [open an issue](https://github.com/PRO100KatYT/RovioActivationScrip
 
 <a href="https://www.star-history.com/?repos=PRO100KatYT%2FRovioActivationScript&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=PRO100KatYT/RovioActivationScript&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=PRO100KatYT/RovioActivationScript&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=PRO100KatYT/RovioActivationScript&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=PRO100KatYT/RovioActivationScript&type=date&theme=dark&legend=top-left&sealed_token=XKVzsCgpPTjtU6F1S3HZ_qDiZvU5Ipj5LUa0IRU4YSmvPgMfgBbEpAoRTRI0ORHYMfJ8lO6FwcmFORcAfhnYqGUW5Ma2zl2dQP_34euhPCc0BSS6OP6vW1rdtAm22TGVsknKPCr8ao0GNw9vk2r0KdOtCXHdlb7gCCZGBLDMzP4nP6w3XDqbKi0mKzXu" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=PRO100KatYT/RovioActivationScript&type=date&legend=top-left&sealed_token=XKVzsCgpPTjtU6F1S3HZ_qDiZvU5Ipj5LUa0IRU4YSmvPgMfgBbEpAoRTRI0ORHYMfJ8lO6FwcmFORcAfhnYqGUW5Ma2zl2dQP_34euhPCc0BSS6OP6vW1rdtAm22TGVsknKPCr8ao0GNw9vk2r0KdOtCXHdlb7gCCZGBLDMzP4nP6w3XDqbKi0mKzXu" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=PRO100KatYT/RovioActivationScript&type=date&legend=top-left&sealed_token=XKVzsCgpPTjtU6F1S3HZ_qDiZvU5Ipj5LUa0IRU4YSmvPgMfgBbEpAoRTRI0ORHYMfJ8lO6FwcmFORcAfhnYqGUW5Ma2zl2dQP_34euhPCc0BSS6OP6vW1rdtAm22TGVsknKPCr8ao0GNw9vk2r0KdOtCXHdlb7gCCZGBLDMzP4nP6w3XDqbKi0mKzXu" />
  </picture>
 </a>
 
 </details>
+
+---
+
+This tool is for educational and archival purposes to preserve abandonware.
